@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 70vh;
+    background: url('images/background.avif');
+    background-size: cover;
+    background-position: center;
+}
+.menu-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+.menu-bar > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu-bar nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-bar nav ul li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.header .content {
+    text-align: center;
+    color: white;
+}
+.header .content h1 {
+    font-size: 90px;
+}
+.header .content h2 {
+    font-size: 40px;
+}
+.header .content input {
+    padding: 10px;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* The food */
+.food {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.food .item {
+    border-radius: 6px;
+    border: 1px solid #888;
+    cursor: pointer;
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease;
+}
+.food .item > .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #333;
+    background: white;
+    width: 100%;
+
+}
+.food .item > .content h3 {
+    font-size: 30px;
+}
+/* Collections */
+#collection {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#collection h2 {
+    font-size: 40px;
+    color: #888;
+}
+#collection > .sub-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#collection > .sub-title a {
+    color: orange;
+    text-decoration: none;
+}
+.collections {
+    display: flex;
+    justify-content: space-between;
+}
+.collections .coll {
+    cursor: pointer;
+    width: 250px;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+    position: relative;
+}
+.collections .coll > .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:  100%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.collections .coll > .content h3 {
+    color: white;
+    font-size: 20px;
+}
+.collections .coll > .content p {
+    color: white;
+    font-size: 18px;
+}
+
+/* Localities */
+.locality {
+    margin: 0  20px;
+    width: 90%;
+    margin: auto;
+}
+.locality h1 {
+    margin-bottom: 20px;
+    color: #888;
+}
+.localities {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.locality .localities .local  {
+    width: 30%;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #444;
+}
+
+/* Download the app */
+.app {
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.app .col-1, .col-2 {
+    width: 40%;
+}
+.app .col-1 img {
+    width: 400px;
+    height: 500px;
+}
+.app .col-2 {
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+}
+.app .col-2 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.app .col-2 p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.app .col-2 input[type="radio"] {
+    margin-right: 10px;
+}
+.app .col-2 label[for="email"], label[for="phone"] {
+    margin-right: 30px;
+    font-size: 22px;
+    color: orange;
+}
+.app .col-2 input[type="email"] {
+    padding: 10px; 
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #888;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.app .col-2 input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background: rgb(255, 31, 31);
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+.app .col-2 input  {
+    margin-bottom: 20px;
+}
+.app .store {
+    cursor: pointer;
+    width: 60%;
+    display: flex;
+}
+.app .store img {
+    width: 100%;
+}
+.app .store .play-store {
+    margin-right: 20px;
+}
+
+/* Footer */
+.footer {
+    margin: 40px 0px;
+    width: 90%;
+    margin: auto;
+}
+.footer .top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer .top-content h1 {
+    font-size: 40px;
+    color: #888;
+}
+.footer .top-content .options form select {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+}
+.footer .bottom-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer .bottom-content > div {
+    width: 15%;
+}
+.footer .bottom-content > div h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer .bottom-content > div nav a {
+    display: block;
+    text-decoration: none;
+    color: #444;
+    margin-bottom: 8px;
+}
+.footer .column-5 .social-links  {
+    display: flex;
+}
+.footer .column-5 .social-links i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #666;
+    cursor: pointer;
+}
+.footer .column-5 .store {
+    width: 100%;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.footer .column-5 .store img {
+    width: 100%;
+    height: auto;
+}
+.footer .copyright {
+    margin: 20px 0px;
+}
+.footer .copyright p {
+    font-size: 14px;
+    color: #888;
+}
+/* Making the website responsive */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 500px;
+    }
+    .header .menu-bar nav {
+        display: none;
+    }
+    .header .content h1 {
+        font-size: 50px;
+    }
+    .header .content h2 {
+        font-size: 30px;
+    }
+    .header .content input {
+        width: 80%;
+    }
+    .food {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .food .item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #collection .sub-title p, a {
+        font-size: 14px;
+    }
+    #collection .collections {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #collection .collections .coll {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .locality .localities .local {
+        width: 45%;
+    }
+    .app {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .app .column {
+        width: 90%;
+    }
+    .app .store {
+        width: 100%;
+    }
+    .footer .top-content .options form select {
+        padding: 2px;
+        width: 100px;
+    }
+    .footer .bottom-content {
+        flex-wrap: wrap;
+    }
+    .footer .bottom-content > div {
+        width: 45%;
+    }
+    .footer .bottom-content .column-5 {
+        width: 100%;
+    }
+    .footer .bottom-content .column-5 .store > div {
+        width: 45%;
+        float: left;
+    }
+    .footer .bottom-content .column-5 .store > div:first-child {
+        margin-right: 10%;
+    }
+}

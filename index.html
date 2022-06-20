@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Rajan kumar</title>
+</head>
+<body>
+    <section class="header">
+        <div class="menu-bar">
+            <a href="#">Get the App</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Add resturant</a></li>
+                    <li><a href="#">Log in</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Zomato</h1>
+            <h2>Discover the best food and drin in Delhi NCR</h2>
+            <input type="search" id="searchFoodItems" name="foodItems" placeholder="Search here...">
+        </div>
+    </section>
+
+    <section class="food">
+        <div class="item item-1">
+            <img src="images/image1.avif" alt="first item">
+            <div class="content">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your door step</p>
+            </div>
+        </div>
+        <div class="item item-2">
+            <img src="images/image2.avif" alt="second item">
+            <div class="content">
+                 <h3>Dining Out</h3>
+            <p>View cities favourite dining venues</p>
+            </div>
+        </div>
+        <div class="item item-3">
+            <img src="images/image3.avif" alt="second item">
+            <div class="content">
+                <h3>Nightlife and Clubs</h3>
+                <p>Explore the cities top nightlife outlets</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections -->
+    <section id="collection">
+        <h2>Collections</h2>
+        <div class="sub-title">
+            <p>Explores curated list of top resturants, cafes, pubs and bars in DELHI NCR based on trends</p>
+            <a href="#">All Collections in Delhi NCR</a>
+        </div>
+        <div class="collections">
+            <div class="coll collection-1">
+                <img src="images/collection1.avif" alt="collection 1">
+                <div class="content">
+                    <h3>Newly Opened</h3>
+                    <p>9 places</p>
+                </div>
+            </div>
+            <div class="coll collection-2">
+                <img src="images/collection2.avif" alt="collection 1">
+                <div class="content">
+                    <h3>Trendin this week</h3>
+                    <p>30 places</p>
+                </div>
+            </div>
+            <div class="coll collection-3">
+                <img src="images/collection3.avif" alt="collection 1">
+                <div class="content">
+                    <h3>Best of Delhi NCR</h3>
+                    <p>150 places</p>
+                </div>
+            </div>
+            <div class="coll collection-4">
+                <img src="images/collection4.avif" alt="collection 1">
+                <div class="content">
+                    <h3>Great Cafes</h3>
+                    <p>29 places</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localities -->
+    <section class="locality">
+        <h1>Popular localities in and around <span>Delhi NCR</span></h1>
+        <div class="localities">
+            <div class="local">
+                <h3>Cannaught Place</h3>
+                <p>386 places</p>
+            </div>
+            <div class="local">
+                <h3>Sector 29</h3>
+                <p>285 places</p>
+            </div>
+            <div class="local">
+                <h3>Sector 18, Noida</h3>
+                <p>301 places</p>
+            </div>
+            <div class="local">
+                <h3>Rajouri Garden</h3>
+                <p>751 places</p>
+            </div>
+            <div class="local">
+                <h3>Saket</h3>
+                <p>665 places</p>
+            </div>
+            <div class="local">
+                <h3>DLF Ciber City</h3>
+                <p>222 places</p>
+            </div>
+            <div class="local">
+                <h3>Golf Course Road</h3>
+                <p>253 places</p>
+            </div>
+            <div class="local">
+                <h3>DLF Phase 4</h3>
+                <p>751 places</p>
+            </div>
+            <div class="local">
+                <p>See More</p>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- Get the app layout -->
+    <section class="app">
+        <div class="column col-1">
+            <img src="images/app_background.avif" alt="">
+        </div>
+        <div class="column col-2">
+            <h1>Get The Zomato App</h1>
+            <p>We will send you a link to download the app  on your phone</p>
+            <form action="">
+                <input type="radio" id="email" name="through" value="email">
+                <label for="email">Email</label>
+                <input type="radio" id="phone" name="through" value="phone">
+                <label for="phone">Phone</label><br>
+                <input type="email" id="emailInput" name="email" placeholder="Email">
+                <input type="submit" value="Share App link">
+            </form>
+            <p>Download the app from</p>
+            <div class="store">
+                <div class="app play-store"><img src="images/googleplay.webp" alt="play store"></div>
+                <div class="app app-store"><img src="images/appstore.webp" alt="app store"></div>
+            </div>
+        </div>
+    </section>
+<!-- Footer section -->
+    <section class="footer">
+        <div class="top-content">
+            <h1>Zomato</h1>
+            <div class="options">
+                <form action="">
+                    <select name="country" id="country">
+                        <option value="india">India</option>
+                        <option value="america">America</option>
+                        <option value="australia">australia</option>
+                        <option value="japan">Japan</option>
+                        <option value="russia">Russia</option>
+                    </select>
+                    <select name="language" id="langauge">
+                        <option value="hindi">Hindi</option>
+                        <option value="english">English</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="urdu">Urdu</option>
+                        <option value="japanese">Japanese</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <div class="column-1">
+                <h6>About zomato</h6>
+                <nav>
+                    <a href="#">Wo We Are</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Work With Us</a>
+                    <a href="#">Investor Relation</a>
+                    <a href="#">Report Fraud</a>
+                </nav>
+            </div>
+            <div class="column-2">
+                <h6>Zomaverse</h6>
+                <nav>
+                    <a href="#">Zomato</a>
+                    <a href="#">Feeling India</a>
+                    <a href="#">Hyperpure</a>
+                    <a href="#">Zomaland</a>
+                </nav>
+            </div>
+            <div class="coulmn-3">
+                <div class="first">
+                    <h6>For Resturant</h6>
+                    <nav>
+                        <a href="#">Partner With Us</a>
+                        <a href="#">Apps for you</a>
+                    </nav>
+                </div>
+                <div class="second">
+                    <h6>For Enterprise</h6>
+                    <nav>
+                        <a href="#">Zomato for work</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="column-4">
+                <h6>learn More</h6>
+                <nav>
+                    <a href="#">Privacy</a>
+                    <a href="#">Security</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Sitemap</a>
+                </nav>
+            </div>
+            <div class="column-5">
+                <h6>Social Links</h6>
+                <div class="social-links">
+                    
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-google"></i>
+                </div>
+                <div class="store">
+                    <div class="app play-store"><img src="images/googleplay.webp" alt="play store"></div>
+                    <div class="app app-store"><img src="images/appstore.webp" alt="app store"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>By continuing past  this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are  poperties of their respective owners. 2008-2022 c Zomato<sup>TM</sup> Ltd. All rights reserved.</p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
